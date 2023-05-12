@@ -199,3 +199,8 @@ nine.onclick = () => {
     }
 }
 
+let newGameBtn = document.getElementById("newgame")
+
+newGameBtn.onclick = () => {
+    window.location.reload();
+}
