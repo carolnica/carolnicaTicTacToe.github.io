@@ -37,3 +37,25 @@ body {
     font-weight: 900;
     font-size: 40px;
 }
+
+#newgame {
+    width: 100px;
+    height: 50px;
+    background-color: #000;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 15px;
+    box-shadow: 0 0 10px 0.5px #000;
+    position: absolute;
+    z-index: 2;
+    top: 80%;
+    transition: 0.5s;
+}
+
+#newgame:hover {
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000;
+}
